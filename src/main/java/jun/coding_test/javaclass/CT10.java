@@ -8,6 +8,12 @@ public class CT10 {
         Scanner s = new Scanner(System.in);
         int n = s.nextInt();
 
+        if (n % 2 == 0 && n > 0) {
+            System.out.println("yes");
+        } else {
+            System.out.println("no");
+        }
+
 
     }
 }

@@ -1,16 +1,14 @@
-package jun.coding_test.javaclass;
+package jun.coding_test.ct01;
 
 import java.util.Scanner;
 
-public class CT03 {
+public class CT02 {
     public static void main(String[] args) {
-
         Scanner sc = new Scanner(System.in);
 
         int a = sc.nextInt();
         int b = sc.nextInt();
 
-        System.out.println(a / b);
-        System.out.println(a % b);
+        System.out.println(a*b);
     }
 }

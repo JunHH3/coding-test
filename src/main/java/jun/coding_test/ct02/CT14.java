@@ -9,14 +9,10 @@ public class CT14 {
 
         int n = s.nextInt();
         int[] arr = new int[n];
-
-        for (int i = 0; i < n; i++) {
-            arr[i] = s.nextInt();
-        }
-
         int sum = 0;
 
         for (int i = 0; i < n; i++) {
+            arr[i] = s.nextInt();
             sum += arr[i];
         }
 

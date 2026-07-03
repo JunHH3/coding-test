@@ -2,18 +2,17 @@ package jun.coding_test.ct01;
 
 import java.util.Scanner;
 
-public class CT10 {
+public class CT11 {
     public static void main(String[] args) {
 
         Scanner s = new Scanner(System.in);
-        int n = s.nextInt();
+        int a = s.nextInt();
+        int b = s.nextInt();
 
-        if (n % 2 == 0 && n > 0) {
-            System.out.println("yes");
+        if (a > b ) {
+            System.out.println(a);
         } else {
-            System.out.println("no");
+            System.out.println(b);
         }
-
-
     }
 }

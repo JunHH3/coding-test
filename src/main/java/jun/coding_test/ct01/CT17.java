@@ -1,17 +1,20 @@
-package jun.coding_test.ct02;
+package jun.coding_test.ct01;
 
 import java.util.Scanner;
 
-public class CT15 {
+public class CT17 {
     public static void main(String[] args) {
 
         Scanner s = new Scanner(System.in);
         int n = s.nextInt();
+        int[] arr = new int[n];
         int sum = 0;
 
-        for (int i = 0; i <= n; i++) {
-            if (i % 2 == 0) {
-                sum += i;
+        for (int i = 0; i < n; i++) {
+            arr[i] = s.nextInt();
+
+            if (arr[i] % 2 != 0) {
+                sum += arr[i];
             }
         }
 

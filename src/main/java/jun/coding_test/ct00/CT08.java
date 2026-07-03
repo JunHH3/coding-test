@@ -1,4 +1,4 @@
-package jun.coding_test.ct01;
+package jun.coding_test.ct00;
 
 import java.util.Scanner;
 

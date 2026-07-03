@@ -2,16 +2,19 @@ package jun.coding_test.ct01;
 
 import java.util.Scanner;
 
-public class CT09 {
+public class CT15 {
     public static void main(String[] args) {
 
         Scanner s = new Scanner(System.in);
         int n = s.nextInt();
+        int sum = 0;
 
-        if (n % 3 == 0) {
-            System.out.println("multiple");
-        } else {
-            System.out.println("not multiple");
+        for (int i = 0; i <= n; i++) {
+            if (i % 2 == 0) {
+                sum += i;
+            }
         }
+
+        System.out.println(sum);
     }
 }

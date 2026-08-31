@@ -1,8 +1,8 @@
-package jun.coding_test.ct01;
+package jun.coding_test.ct.ct01;
 
 import java.util.Scanner;
 
-public class CT18 {
+public class CT16 {
     public static void main(String[] args) {
 
         Scanner s = new Scanner(System.in);
@@ -13,7 +13,7 @@ public class CT18 {
         for (int i = 0; i < n; i++) {
             arr[i] = s.nextInt();
 
-            if (arr[i] > 5) {
+            if (arr[i] % 2 == 0) {
                 count++;
             }
         }

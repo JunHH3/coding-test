@@ -1,10 +1,9 @@
-package jun.coding_test.ct01;
+package jun.coding_test.ct.ct02;
 
 import java.util.Scanner;
 
-public class CT16 {
+public class CT20 {
     public static void main(String[] args) {
-
         Scanner s = new Scanner(System.in);
         int n = s.nextInt();
         int[] arr = new int[n];
@@ -18,5 +17,8 @@ public class CT16 {
             }
         }
         System.out.println(count);
+
     }
+
+
 }

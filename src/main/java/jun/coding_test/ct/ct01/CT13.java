@@ -1,8 +1,8 @@
-package jun.coding_test.ct01;
+package jun.coding_test.ct.ct01;
 
 import java.util.Scanner;
 
-public class CT12 {
+public class CT13 {
     public static void main(String[] args) {
 
         Scanner s = new Scanner(System.in);
@@ -20,15 +20,15 @@ public class CT12 {
             int start = s.nextInt();
             int end = s.nextInt();
 
-            int sum = 0;
+            int count = 0;
 
             for (int j = start - 1; j <= end - 1; j++) {
-                sum += arr[j];
+                if (arr[j] % 2 == 0) {
+                    count++;
+                }
             }
 
-            System.out.println(sum);
+            System.out.println(count);
         }
     }
 }
-
-
